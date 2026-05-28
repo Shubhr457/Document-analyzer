@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pymupdf
+python-docx
+google-generativeai
+typer[all]
+rich
+python-dotenv
+numpy
