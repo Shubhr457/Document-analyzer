@@ -1,7 +1,7 @@
 # ── Secrets & Environment ─────────────────────────────────────────────────────
 .env
 .env.*
-!.env.example
+.env.example
 
 # ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
@@ -80,6 +80,7 @@ logs/
 *.swp
 *.swo
 *~
+PROGRESS.md
 
 # ── Jupyter (if used for experimentation) ────────────────────────────────────
 .ipynb_checkpoints/
