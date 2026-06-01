@@ -1,0 +1,86 @@
+# ── Secrets & Environment ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ── Dependency / Package managers ─────────────────────────────────────────────
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Testing & Coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+nosetests.xml
+test-results/
+
+# ── Type checking ─────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+.pyright/
+
+# ── FastAPI / Uvicorn ─────────────────────────────────────────────────────────
+# Uploaded documents processed by the API
+uploads/
+tmp/
+temp/
+
+# ── RAG / Embeddings cache ────────────────────────────────────────────────────
+*.npy
+*.npz
+embeddings_cache/
+vector_store/
+chroma_db/
+faiss_index/
+
+# ── Document uploads & outputs ────────────────────────────────────────────────
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.csv
+output/
+parsed/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDEs & Editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Jupyter (if used for experimentation) ────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
